@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- iframe is used to embed another HTML page within the current page. -->
+    <!-- we can use iframe to embed videos, audio, images, and other HTML pages and map  -->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/VLKwVorHjnw?si=HA575Ng55-icATA7"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/8HPRhJKMjRA?si=jXodR7sa-CVbnl4B"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <h1>Video Tag</h1>
+    <video controls loop poster="Images/Jcb.jpg">
+      <!-- poster means the image that will be shown before the video starts -->
+      <source src="Docs/file_example_MP4_640_3MG.mp4" type="video/mp4" />
+    </video>
+
+    <h1>Audio Tag</h1>
+    <audio controls autoplay loop muted>
+      <!-- Control      is important for video and audio tag -->
+      <!-- autoplay     will start the audio automatically -->
+      <!-- loop         will play the audio again and again -->
+      <!-- muted means the audio will be muted by default -->
+      <source src="Docs/file_example_MP3_1MG.mp3" type="audio/mp3" />
+      <!-- in audio tag we can use source tag to specify the audio file. -->
+      <!-- type is important to specify the type of audio file -->
+    </audio>
+    <h1>Construction Work</h1>
+    <img src="Images/Jcb.jpg" alt="Jcb machine" />
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias nihil
+      quasi minima assumenda quidem, architecto ex iure dolorem aliquam labore!
+    </p>
+    <h2>Construction Work 2</h2>
+    <img src="Images/jcb2.jpg" alt="Jcb machine 2" />
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+      debitis dolore voluptatibus quis ea sint consequatur eum alias praesentium
+      velit?
+    </p>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.79782940968!2d73.78262096654957!3d18.599349978538864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b91a261193bb%3A0x66e435d29eb0c084!2sPark%20Royale!5e0!3m2!1sen!2sin!4v1753964464122!5m2!1sen!2sin"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <h2>Hotel Atlanta</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4612996134897!2d77.5907539758876!3d13.00626971411556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae164e8666ffed%3A0xc87fd7af078b2925!2sAtlaantic%20Inn!5e0!3m2!1sen!2sin!4v1753964667262!5m2!1sen!2sin"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <!-- using iframe to embed another HTML page -->
+    <h1>Embedded HTML Page</h1>
+    <iframe src="table.html" width="600" height="470"></iframe>
+    <iframe src="Docs/file-example_PDF_500_kB.pdf" width="100%" height="470"></iframe>
+  </body>
+</html>
