@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Types of input in Html</h1>
+    <!-- fieldset is used to group related elements in a form -->
+    <fieldset>
+      <!-- legend is used to define a caption for the fieldset -->
+      <legend>Contact Form</legend>
+      <form>
+        <!-- lable is used to define a label for an input element -->
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name" /><br /><br />
+        <label>Email</label>
+        <input type="email" placeholder="Enter Email" /><br /><br />
+        <label>Number</label>
+        <input type="number" placeholder="Enter your Number" /><br /><br />
+        <label>Enter Your Password</label>
+        <input type="password" /><br /><br />
+        <label>date of birth</label>
+        <input type="date" /><br /><br />
+        <label>Enter Your Month</label>
+        <input type="month" /><br /><br />
+        <label>Enter Week</label>
+        <input type="week" /><br /><br />
+        <label>Enter Time</label>
+        <input type="time" /><br /><br />
+        <label>Enter date and Time</label>
+        <input type="datetime-local" /><br /><br />
+        <label>hoose Colour</label>
+        <input type="color" /><br /><br />
+        <label>Choose Range</label>
+        <input type="range" /><br /><br />
+        <label>Choose Cities</label><br />
+        <!-- we use checked attribute for bydefoult check -->
+        <input type="checkbox" checked /> Mumbai <input type="checkbox" />Pune
+        <input type="checkbox" />Solapur <input type="checkbox" />Banglore
+        <br />
+        <br />
+        <label>Select Your Gender</label><br />
+        <input type="radio" name="Gender" />Male
+        <input type="radio" name="Gender" />Female <br /><br />
+        <label>Upload Your image</label> <br />
+        <!-- This is for single File -->
+        <input type="file" /><br /><b>
+            <!-- This Is For Multiple -->
+            <input type="file" multiple><br><br>
+
+        <label>Select your favorate Dish</label>
+        <!-- We use select for multiple options need to choose one -->
+        <!-- like city,favorate food,player -->
+        <select>
+          <option>Please Choose</option>
+          <option>GulabJamun</option>
+          <option>Sonpapdi</option>
+          <option>Kaju Katli</option>
+          <option>Dink Laadu</option>
+          <option>Rasmalai</option>
+        </select><br><br>
+        <label>Enter Your Comment</label>
+        <textarea rows="10" cols="20"></textarea>
+        <input type="submit">
+      </form>
+    </fieldset>
+  </body>
+</html>
