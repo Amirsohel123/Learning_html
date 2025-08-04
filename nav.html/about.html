@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About</title>
+  <style>
+    body {
+      background-image: url(/Images/spiderweb-8430411.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background: rgba(255,255,255,0.7);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+      gap: 30px;
+    }
+    nav a {
+      background: none;
+      color: #333;
+      text-decoration: none;
+      padding: 10px 24px;
+      border-radius: 25px;
+      font-size: 1.1rem;
+      transition: background 0.3s, color 0.3s;
+      border: none;
+      font-weight: 500;
+    }
+    nav a:hover,
+    nav a:focus {
+      background: #ec9005;
+      color: #eeeeee;
+      outline: none;
+    }
+    nav a[style*="color: red"] {
+      background: #333;
+      color: #5ab1f8 !important;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      background: rgba(255,255,255,0.85);
+      border-radius: 16px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+      padding: 32px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    section h2 {
+      color: #ec9005;
+      margin-top: 30px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+  </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html" style="color: red">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+    <main style="max-width: 800px; margin: 40px auto; background: rgba(255,255,255,0.85); border-radius: 16px; box-shadow: 0 2px 16px rgba(0,0,0,0.07); padding: 32px;">
+      <h1 style="text-align:center; color:#333;">About Us</h1>
+      <p style="font-size:1.1rem; color:#222; text-align:center;">
+        We are a passionate team dedicated to delivering high-quality web solutions for businesses and individuals.<br>
+        Our expertise covers web development, UI/UX design, SEO optimization, and ongoing support.<br>
+        With a focus on innovation and customer satisfaction, we strive to help our clients succeed online.
+      </p>
+      <section>
+        <h2>Our Mission</h2>
+        <p>
+          To empower businesses with modern, effective, and user-friendly digital experiences that drive growth and engagement.
+        </p>
+      </section>
+      <section>
+        <h2>Why Choose Us?</h2>
+        <ul style="font-size:1.05rem; color:#222;">
+          <li>Experienced and creative team</li>
+          <li>Client-focused approach</li>
+          <li>Latest technologies and best practices</li>
+          <li>Reliable support and maintenance</li>
+        </ul>
+      </section>
+  </body>
+</html>
